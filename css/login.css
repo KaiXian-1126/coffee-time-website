@@ -1,0 +1,95 @@
+body{
+  font-size:24px;
+  background-image: url("../img/coffeebg.jpg");
+  background-size: cover;
+}
+
+input{
+  border:none;
+  border-bottom:solid 1px black;
+  outline:none;
+}
+
+h1{
+  text-align: center;
+  margin-top:10%;
+  margin-bottom:10%;
+  font-family:papyrus;
+}
+div.login{
+  background-color:rgb(211, 84, 0);
+  width:600px;
+  height:800px;
+  margin:auto;
+  margin-top:5%;
+  margin-bottom:5%;
+  opacity:0.95;
+}
+
+img{
+  width:250px;
+  height:220px;
+  border-radius:50%;
+  margin-left: 27%;
+
+}
+.pattern{
+  margin-left:10%;
+}
+input{
+  height:30px;
+  background-color:rgb(211, 84, 0);
+  width:80%
+}
+::placeholder{
+  color: rgb(224, 214, 214);
+}
+div.submit{
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+input.submit{
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+  background-color:rgb(248, 148, 6);
+  border-radius:20px;
+}
+
+
+
+a{
+  display:inline;
+  text-decoration:none;
+  margin-left:5%;
+}
+
+.noaccount{
+  display:inline-block;
+  margin-left:25%;
+}
+input.submit:hover{
+  background-color: rgb(249, 105, 14);
+}
+a.homepage-link{
+  display: block;
+  text-align: center;
+}
+a.signup-link:hover{
+  color: yellow;
+  font-size: 26px;
+  transition: 0.7s;
+}
+a.homepage-link:hover{
+  transition: 0.7s;
+  color: yellow;
+  font-size: 26px;
+}

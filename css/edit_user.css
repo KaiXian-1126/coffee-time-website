@@ -1,0 +1,77 @@
+h1{
+  text-align: center;
+  color:rgb(249, 105, 14);
+  margin-bottom:10%;
+  text-decoration: underline;
+}
+body{
+  font-size:24;
+  margin: 0;
+  background-image: linear-gradient(to bottom, #ffbc05, white);
+}
+div.table{
+  width:90%;
+  margin:auto;
+  border:solid black 1px;
+  padding-top:3%;
+  padding-bottom:3%;
+  background-color:rgb(253, 227, 167);
+  opacity:0.8;
+  overflow: hidden;
+}
+table#User_table{
+  margin: 20px;
+  width: 80%;
+  border-collapse: collapse;
+ 
+}
+table#User_table, th, td{
+  border: 1px solid black;
+  margin: auto;
+}
+table#User_table th, table#User_table td{
+  width: 10%;
+}
+a.delete{
+  padding-left:10%;
+  text-decoration: none;
+  color:brown;
+}
+.adduser a{
+  text-decoration:none;
+  color:black;
+  border:solid 1px black;
+  padding:5px;
+  background-color:rgba(230,230,230,1);
+  
+}
+
+button.submit{
+  text-decoration:none;
+  color:black;
+  border:solid 1px black;
+  padding:5px;
+  background-color:rgba(230,230,230,1);
+  font-size:24px;
+}
+
+td.delete{
+  background-color:rgb(253, 227, 167);
+
+}
+
+.adduser{
+  text-align:center;
+  font-size:24px;
+}
+a.back{
+  display: block;
+  color: gray;
+  margin: 20px;
+  text-decoration: none;
+  margin-bottom: 50px;
+  transition: 0.7s;
+}
+a.back:hover{
+  color: white;
+}

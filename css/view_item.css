@@ -1,0 +1,66 @@
+div.search-bar input{
+    width: 100px;
+    height:50px;
+    margin: 20px 0px;
+    border: 1px solid black;
+    border-radius: 25px;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: width 0.7s;
+}
+div.search-bar input:focus{
+    width: 500px;
+}
+img.ad-img{
+    width: 500px;
+    height: 300px;
+}
+img.coffee-img{
+    width: 100px;
+    height: 100px;
+}
+a.add-link{
+    position: relative;
+    font-size: 24px;
+    padding:10px;
+    margin-bottom: 100px;
+    top: 50px;
+    background-color: grey;
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+}
+a.back{
+    text-decoration: none;
+    display: inline-block;
+    background-color: gray;
+    color: rgb(224, 224, 255);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+a:hover{
+    color: rgb(115, 215, 255);
+}
+input.action, a.action{
+    background-color: rgb(182, 234, 255);
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+    transition: filter 0.7s;
+}
+a.action{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+   
+  
+}
+input.action:hover, a.action:hover{
+    filter: brightness(125%);
+}
+input.file{
+    outline: none;
+}

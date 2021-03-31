@@ -1,0 +1,113 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+html{
+  height: 100%;
+}
+body {
+  padding-top: 56px;
+  height: 100%;
+  margin: 0;
+}
+div.homepage{
+  position: relative;
+}
+
+div.homepage {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+div.homepage img{
+  width:100%;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  padding: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+  width:75%;
+}
+.top-left-subtext {
+  position: absolute;
+  top: 250px;
+  left: 16px;
+  padding: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+}
+#contact-list img#management1, #contact-list img#management2{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 20px;
+}
+#contact-list img#management1{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+#contact-list img#management2{
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+#contact-list img#management1:hover, #contact-list img#management2:hover{
+  border-radius: 0%;
+  transition: 1s;
+  
+}
+#contact-list h2, #contact-list p{
+  margin:20px;
+}
+#contact-list h2#management1{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+#contact-list h2#management2{
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+#contact-list p#management1{
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+#contact-list p#management2{
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+.link-list{
+  position: relative;
+  height: 70px;
+}
+img#link1, img#link2, img#link3{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -10%;
+  border-radius: 15px;
+}
+img#link1{
+  left: 30%;
+}
+img#link2{
+  left: 50%;
+}
+img#link3{
+  left: 70%;
+}
+img#ad{
+  width: 700px;
+  height: 500px;
+}
